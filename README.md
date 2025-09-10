@@ -30,8 +30,6 @@ lorem ipsum dolor jamet
 
 - **Classes (8):**  
   `Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, Surprise`
-
-- **Directory layout:**
 ---
 ## References
 
