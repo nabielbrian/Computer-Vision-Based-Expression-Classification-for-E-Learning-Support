@@ -21,6 +21,11 @@ Online learning reduces the natural feedback teachers get in physical classrooms
 ## Objective
 lorem ipsum dolor jamet
 
+---
+
+## Repository Structure
+---
+
 ## Dataset
 - **Source:** [AffectNet (YOLO format) on Kaggle](https://www.kaggle.com/datasets/fatihkgg/affectnet-yolo-format)  
   The dataset is provided in YOLO-style format and is already split into `train`, `val`, and `test` sets.
@@ -29,7 +34,7 @@ lorem ipsum dolor jamet
   `Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, Surprise`
 
 - **Directory layout:**
-
+---
 ## References
 
 Madake, J., Shende, S., Bhatlawande, S., Shinde, R., Govekar, S., & Shilaskar, S. (2022).  
