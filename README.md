@@ -10,8 +10,6 @@
   </a>
 </p>
 
----
-
 ## Our goal
 Give educators lightweight, real-time insight into student engagement during online classes by classifying facial expressions (not identities) and summarizing session-level trends—so teaching can be adapted quickly.
 
