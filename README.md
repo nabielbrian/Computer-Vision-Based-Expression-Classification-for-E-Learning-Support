@@ -5,7 +5,7 @@
 <h1 align="center">AbuLearn — Expression Classification for E-Learning Support</h1>
 
 <p align="center">
-  <a href="https://huggingface.co/spaces/ghozyreuski/abulearn-expression-detector/tree/main/assets">
+  <a href="https://huggingface.co/spaces/ghozyreuski/abulearn-expression-detector">
     <img alt="Deploy on Hugging Face" src="https://img.shields.io/badge/Deploy-HuggingFace-blue?logo=huggingface">
   </a>
 </p>
