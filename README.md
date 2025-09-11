@@ -20,7 +20,7 @@ p2-final-project-ftds-030-hck-group01-abulearn-project
 │          ├── best.pt                     # Fine-tune model
 │          └── deploy_config.json          # Best model configuration
 │
-├── /inf_images                     # Input images for inference ()
+├── /inf_images                     # Create the folder to input images before running inference
 │
 ├── /raw_data                       # Raw dataset from kaggle
 │
