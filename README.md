@@ -16,7 +16,7 @@ p2-final-project-ftds-030-hck-group01-abulearn-project
 │
 ├── /assets                         # Project's logo
 │                     
-├── /deploy/deploy_model                   # Packages for for deployment
+├── /deploy/deploy_model                   # Packages for deployment
 │          ├── best.pt                     # Fine-tune model
 │          └── deploy_config.json          # Best model configuration
 │
