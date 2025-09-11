@@ -1,0 +1,9 @@
+path: sample_data\sample_data_cleaned
+train: train/images
+val: val/images
+test: test/images
+nc: 3
+names:
+- Not Engaged
+- Nominally Engaged
+- Very Engaged
