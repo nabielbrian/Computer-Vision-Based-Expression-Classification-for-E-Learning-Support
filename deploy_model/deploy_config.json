@@ -1,0 +1,6 @@
+{
+  "best_pt": "C:\\Users\\Ali\\Documents\\p2-final-project-ftds-030-hck-group01-abulearn-project\\Final Project Group 1 HCK 030\\p2-final-project-ftds-030-hck-group01-abulearn-project\\runs\\detect\\finetune_unfreeze\\weights\\best.pt",
+  "conf": 0.4,
+  "iou": 0.6,
+  "imgsz": 160
+}
