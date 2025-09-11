@@ -16,11 +16,11 @@ p2-final-project-ftds-030-hck-group01-abulearn-project
 │
 ├── /assets                         # Project's logo
 │                     
-├── /deploy                         # Packages for for deployment
-│   ├── best.pt                     # Fine-tune model
-│   ├── deploy_config.json          # Best model configurasion
+├── /deploy/deploy_model                   # Packages for for deployment
+│          ├── best.pt                     # Fine-tune model
+│          └── deploy_config.json          # Best model configuration
 │
-├── /inf_images                     # Input images for inference
+├── /inf_images                     # Input images for inference ()
 │
 ├── /raw_data                       # Raw dataset from kaggle
 │
@@ -31,7 +31,7 @@ p2-final-project-ftds-030-hck-group01-abulearn-project
 ├── abulearn_project.ipynb                       # Main notebook
 ├── engagement_level.yaml                        # YOLO dataset config (paths & class names)
 ├── README.md                                    # Documentation
-├── yolov8n.pt                                   # YOLO baseline model
+└── yolov8n.pt                                   # YOLO baseline model
 ```
 ---
 
@@ -45,7 +45,7 @@ Give educators lightweight, real-time insight into student engagement during onl
 
 <div align="justify">
 
-Online learning reduces the natural feedback teachers get in physical classrooms. Without clear non-verbal cues, it’s hard to gauge attention, confusion, or disengagement. We need a privacy-aware system that infers engagement signals from facial expressions to support timely teaching interventions—without recording or identifying students.
+Online learning reduces the natural feedback teachers get in physical classrooms. Without clear non-verbal cues, it’s hard to gauge attention, confusion, or disengagement. We need a privacy-aware system that infers engagement signals from facial expressions to support timely teaching interventions, without recording or identifying students.
 
 ## Objective
 

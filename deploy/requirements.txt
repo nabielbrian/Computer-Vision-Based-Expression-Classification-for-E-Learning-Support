@@ -1,0 +1,8 @@
+gradio>=4.41.0
+opencv-python-headless==4.10.0.84
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.8
+torch
+opencv-python
+ultralytics   
