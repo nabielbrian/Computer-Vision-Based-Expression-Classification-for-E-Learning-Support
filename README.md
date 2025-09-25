@@ -39,34 +39,42 @@ p2-final-project-ftds-030-hck-group01-abulearn-project
 
 <div align="justify">
 
-Give educators lightweight, real-time insight into student engagement during online classes by classifying facial expressions (not identities) and summarizing session-level trends, so teaching can be adapted quickly.
+Provide recruiters with lightweight, real-time insights into **candidate engagement** during online interviews by classifying facial expressions (not identities) and summarizing session-level trends, so hiring decisions can be more objective and informed.
 
 ## Problem statement
 
 <div align="justify">
 
-Online learning reduces the natural feedback teachers get in physical classrooms. Without clear non-verbal cues, it’s hard to gauge attention, confusion, or disengagement. We need a privacy-aware system that infers engagement signals from facial expressions to support timely teaching interventions, without recording or identifying students.
+Remote hiring has become the norm, but recruiters often struggle to assess **candidate focus, stress, or engagement** without face-to-face interaction.  
+Traditional online interviews miss many non-verbal cues, which can lead to **bias, misjudgment, or incomplete evaluation**.  
+We need a **privacy-aware system** that infers emotional and attentiveness signals from facial expressions to support HR decision-making — without storing or identifying personal data.
+
 
 ## Objective
 
 <div align="justify">
 
-- Build a computer-vision model to classify facial expressions into **eight emotions**: Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
-- Aggregate these emotions into **three engagement states** for simpler, actionable analytics:
-  - **Very Engaged** = Happy, Surprise  
-  - **Nominally Engaged** = Fear, Disgust, Contempt  
-  - **Not Engaged** = Neutral, Sad, Anger
-- Use the predicted engagement to inform **adaptive teaching strategies** (e.g., add interactive content when engagement drops, or provide clarification when confusion is detected).
+- Build a **computer vision model** to classify facial expressions into **eight emotions**: Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, and Surprise.  
+- Aggregate these emotions into **three engagement states** for HR-friendly analytics:
+  - **Highly Engaged** = Happy, Surprise  
+  - **Moderately Engaged** = Fear, Disgust, Contempt  
+  - **Low Engagement** = Neutral, Sad, Anger  
+- Provide **real-time engagement insights** during candidate interviews to support **fairer, data-informed hiring decisions**.  
 
 ## Dataset
 
 <div align="justify">
 
 - **Source:** [AffectNet (YOLO format) on Kaggle](https://www.kaggle.com/datasets/fatihkgg/affectnet-yolo-format)  
-  **Usage in this project:** We downloaded **only the `train/` split** and used it as our **raw_data** (≈ **17.1k** image–label pairs).
+  **Usage in this project:** Only the `train/` split was used as **raw_data** (≈ **17.1k** image–label pairs).  
 
 - **Classes (8):**  
   `Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, Surprise`
+
+- **Engagement Mapping (3 states):**  
+  - Highly Engaged → Happy, Surprise  
+  - Moderately Engaged → Fear, Disgust, Contempt  
+  - Low Engagement → Neutral, Sad, Anger  
 
 ## References
 
