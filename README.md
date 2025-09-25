@@ -2,7 +2,7 @@
   <img src="assets/Logo_Finpro_AbuLearn.png" alt="AbuLearn Logo" width="240">
 </p>
 
-<h1 align="center">AbuLearn — Expression Classification for E-Learning Support</h1>
+<h1 align="center">AbuLearn — AI-Powered Facial Expression Analysis for Recruitment </h1>
 
 <p align="center">
   <a href="https://huggingface.co/spaces/ghozyreuski/abulearn-expression-detector">
